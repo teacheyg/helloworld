@@ -1,20 +1,19 @@
 body {background-color: #fff;
 font-family: Arial, Helvetica, sans-serif;
 border-top: 15px solid #424242;
-margin: 0 auto;
+margin: 0;
+color: #424242;
 }
 
-main { margin: 0 auto;
+main { 
+    margin: 0 auto;
     width: 800px;
 } 
 
 .masthead {
-    background-image: url(images/mac.jpg);
-    background-size: cover;
-    background-position: bottom;
-    height: 200px;
+    background: no-repeat bottom / cover url(images/mac.jpg);
+    height: 250px;
     border-radius: 20px;
-
 }
 .details{
     display: flex;
@@ -25,18 +24,47 @@ main { margin: 0 auto;
 .details section {
     flex-grow: 1;
     flex-basis: 0;
-    background: #eee;
-    padding: 25px;
+    background: #e9eaec;
     border-radius: 20px;
     margin-top: 25px;
 }
 
+.details section p{
+    margin: 20px;
+}
+.details section h2{
+    margin: 20px;
+}
+
+.details section.with-code {
+    padding: 0;
+}
+
+div.code-html {
+    padding: 25px;
+    background: #424242;
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
+}
 img {
     width: 100%;
 }
-h2{margin: 0 0 10px 0;}
+
+h1 {
+    background-image: url(images/Logo.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center left;
+    font-size: 3em;
+    padding-left: 55px;
+    margin: 100px 0 25px 0;
+}
+
+h2 {margin: 0 0 10px 0;}
 
 p{
     margin: 0;
-    line-height: 1.4cm;
+    line-height: 1.4em;
 }
