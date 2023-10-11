@@ -4,8 +4,9 @@ border-top: 15px solid #424242;
 margin: 0 auto;
 }
 main { margin: 0 auto;
-    width: 900px;
-}
+    width: 800px;
+} 
+.details{display: flex;}
 img {
     width: 100%;
 }
